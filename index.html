@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workout Recorder</title>
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/formatting.css">
+  <link rel="stylesheet" href="styles/layout.css">
+</head>
+<body>
+  <div class="header">
+    <h1 class="page-title">Workout Progress Recorder</h1>
+  </div>
+  <div class="navbar">
+    <button id="js-reset-session" class="nav-button">New session 'not functional yet'</button>
+    <button id="js-add-exercise" class="nav-button">Add Exercise</button>
+    <button id="js-remove-exercise" class="nav-button">Remove Exercise</button>
+    <button id="js-save" class="nav-button">Save Progress</button>
+    <a href="saves.html"><button class="nav-button">Saved Records</button></a>
+    <button id="js-reset" class="nav-button" onclick="localStorage.clear(); document.querySelector('#js-workout-title').value = '';">Reset all data</button>
+  </div>
+  <div class="main">
+    <h2 class="session-title">Title</h2>
+    <input id="js-workout-title" class="session-title-input" type="text" placeholder="What are we working today">
+    <div id="js-exercise-templates" class="session-main-form"></div>
+  </div>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

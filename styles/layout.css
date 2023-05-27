@@ -1,0 +1,39 @@
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.navbar {
+  background-color: rgb(200, 255, 200);
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main {
+  background-color: white;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  padding: 0.1rem 2rem;
+  border-radius: 20px;
+}
+
+.exercise-input,
+.weight-input,
+.set-input,
+.session-title-input {
+  padding: .2rem .6rem;
+  margin: .4rem .2rem;
+}
+
+.weight-input {
+  width: 100%;
+  max-width: 8rem;
+}
+
+.set-input {
+  max-width: 2.6em;
+}

@@ -1,0 +1,13 @@
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.nav-button:hover {
+  background-color: rgb(154, 255, 134);
+}
+
+.nav-button:active {
+  opacity: .7;
+}
